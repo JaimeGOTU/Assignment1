@@ -14,14 +14,6 @@ body{
     height: 690px;
 }
 
-/*
-#8552F7
-#464ED4
-#5A95EA
-#46B4D4
-#49F5DD
-*/
-
 #wrapper{
     width: 720px;
     height: 400px;
@@ -31,9 +23,11 @@ body{
 }
 
 #wrapper_about_me{
-    width: 920;
+    width: 720px;
     height: 500px;
     background-color: silver;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #right_side{
@@ -43,7 +37,7 @@ body{
 #left_side{
     float:left;
 }
-
+/*
 video{
     width: 320px;
     height: 180px;
@@ -53,8 +47,8 @@ video{
     border:2px white solid;
     /*margin-left: auto;
     margin-right: auto;*/
-} 
-#projects{
+
+video{
     width: 320px;
     height: 180px;
     padding: 15px;
