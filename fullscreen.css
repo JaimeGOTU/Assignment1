@@ -3,58 +3,91 @@
 
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: blue;
+    /*
+    background: -moz-linear-gradient(top, #8552F7 0%, #464ED4 100%);
+    background: -webkit-linear-gradient(top,#8552F7 0%, #464ED4 100%);
+    background: -o-linear-gradient(top, #8552F7 0%, #464ED4 100%);
+    background: linear-gradient(top, bottom, #8552F7 0%, #464ED4 100%);
+    */
+    background-image: linear-gradient(to bottom, #8552F7, blue);
     padding: 10px;
-    margin: auto;
+    height: 690px;
 }
 
+/*
+#8552F7
+#464ED4
+#5A95EA
+#46B4D4
+#49F5DD
+*/
+
 #wrapper{
-    width: 920;
+    width: 720px;
     height: 400px;
-    background-color: aqua;
+    background-color: silver;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrapper_about_me{
+    width: 920;
+    height: 500px;
+    background-color: silver;
+}
+
+#right_side{
+    float:right;
+}
+
+#left_side{
+    float:left;
 }
 
 video{
     width: 320px;
     height: 180px;
     padding: 15px;
-    margin: 15px;
+    margin-left: 34%;
     background-color:black;
     border:2px white solid;
     /*margin-left: auto;
     margin-right: auto;*/
 } 
-
-#right-column {
-    float: right;
-    margin-right: 5%;
-    height: 400px;
-    font-size-adjust: inherit;
-    text-size-adjust: auto;
-}
-
-#left-column {
-    margin-left: 1%;
-    float: left;
-    height: 400px;
+#projects{
+    width: 320px;
+    height: 180px;
+    padding: 15px;
+    background-color:black;
+    border:2px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-left: 35px;
 }
 
 #form{
-    margin-left: 37%;
+    margin-left: 30%;
     margin-right: auto;
 }
 
 header{
-    background-color: yellow;
+    background-color: greenyellow;
     margin: 0%;
     padding-top:5px;
     padding-bottom:5px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
-    background-color: orange;
+    background-color: greenyellow;
     padding-top:5px;
     padding-bottom:5px;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1,h2,h3,h4,h5,h6,p,li {
