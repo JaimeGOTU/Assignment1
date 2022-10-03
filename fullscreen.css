@@ -9,37 +9,54 @@ body{
 }
 
 #wrapper{
-    width: 760px;
-    height: 100000px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 920;
+    height: 400px;
     background-color: aqua;
 }
 
 video{
-    margin-left: auto;
-    margin-right: auto;
     width: 320px;
     height: 180px;
-}
+    padding: 15px;
+    margin: 15px;
+    background-color:black;
+    border:2px white solid;
+    /*margin-left: auto;
+    margin-right: auto;*/
+} 
 
 #right-column {
     float: right;
-    width: 300px;
+    margin-right: 5%;
     height: 400px;
+    font-size-adjust: inherit;
+    text-size-adjust: auto;
 }
 
 #left-column {
+    margin-left: 1%;
     float: left;
-    width: 360px;
     height: 400px;
 }
 
 #form{
-    margin-left: 30%;
-    margin-right: 25%;
+    margin-left: 37%;
+    margin-right: auto;
 }
 
 header{
     background-color: yellow;
+    margin: 0%;
+    padding-top:5px;
+    padding-bottom:5px;
 }
+
+footer{
+    background-color: orange;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+h1,h2,h3,h4,h5,h6,p,li {
+    margin-left:15px;
+    }
