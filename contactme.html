@@ -1,0 +1,80 @@
+<!--INFR3120 - Web and Scripting Programming - Assignment 1
+Jaime Gonzalez Sanz 100839804-->
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jaime.G Portfolio - Contact Me</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <!--Same header for all pages so user has easy navigation-->
+    <header>
+        <nav>
+            <h5>
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="contactme.html">Contact Me</a>
+            </h5>
+        </nav>
+    </header>
+    <!--The form will be inside the body-->
+    <body>
+        <!--Necessary to make the "Contact Me" form or any other form-->
+        <form>
+            <!--Labels to indicate the user what to input-->
+            <label for="name">Name</label>
+            <br>
+            <!--The input itself, with placeholders as examples-->
+            <input type="text" name="name" size="20" placeholder="John Smith" required>
+
+            <p></p>
+
+            <label for="email">E-mail</label>
+            <br>
+            <!--same as above, but with type email, so a valid input is necessary-->
+            <input type="email" name="email" size="35" placeholder="CoolEmail@gmail.com" required>
+
+            <p></p>
+
+            <label for="inquiry">Type of Inquiry</label>
+            <br>
+            <!--List of options regarding the Type of Inquiry-->
+            <input list="list" name="inquiry" required>
+                <datalist id="list">
+                    <option value="Job Offer"></option>
+                    <option value="Interview Request"></option>
+                    <option value="General Inquiry"></option>
+                    <option value="Other"></option>
+                </datalist>
+
+            <p></p>
+            <!--For the user to write what the inquiry is about in a text area-->
+            <label for="additional_info">About the Inquiry</label>
+            <br>
+            <textarea name="additional_info" cols="45" rows="7" required></textarea>
+
+            <p></p>
+            <!--To submit the info and supposedly send it to me-->
+            <input type="submit" value="Send"/>
+
+        </form>
+
+    </body>
+
+    <footer>
+        <h3>Socials</h3>
+        <!--Used to include a list of social links-->
+        <nav>
+            <!--LATER, INCLUDE LOGOS???-->
+            <h5>
+                <a href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">LinkedIn</a>
+                <a href="https://twitter.com/Dalus_exe">Twitter</a>
+                <a href="https://www.twitch.tv/dalus_exe">Twitch</a>
+                <a href="https://www.youtube.com/channel/UCLUutHKgWV748k3QDboIOmA">Youtube</a>
+            </h5>
+        </nav>
+    </footer>
+
+</html>

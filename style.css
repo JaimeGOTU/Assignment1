@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+video{
+    width: 320px;
+    height: 180px;
+}
+
+#wrapper {
+    width: 960px;height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#right-column {
+    float: right;
+    width: 600px;
+    height: 600px;
+}
+
+#left-column {
+    float: left;
+    width: 360px;
+    height:600px;
+}
