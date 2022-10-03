@@ -25,46 +25,47 @@ Jaime Gonzalez Sanz 100839804-->
     </header>
     <!--The form will be inside the body-->
     <body>
-        <!--Necessary to make the "Contact Me" form or any other form-->
-        <form>
-            <!--Labels to indicate the user what to input-->
-            <label for="name">Name</label>
-            <br>
-            <!--The input itself, with placeholders as examples-->
-            <input type="text" name="name" size="20" placeholder="John Smith" required>
+        <div id="wrapper">
+            <!--Necessary to make the "Contact Me" form or any other form-->
+            <form id="form">
+                <!--Labels to indicate the user what to input-->
+                <label for="name">Name</label>
+                <br>
+                <!--The input itself, with placeholders as examples-->
+                <input type="text" name="name" size="35" placeholder="John Smith" required>
 
-            <p></p>
+                <p></p>
 
-            <label for="email">E-mail</label>
-            <br>
-            <!--same as above, but with type email, so a valid input is necessary-->
-            <input type="email" name="email" size="35" placeholder="CoolEmail@gmail.com" required>
+                <label for="email">E-mail</label>
+                <br>
+                <!--same as above, but with type email, so a valid input is necessary-->
+                <input type="email" name="email" size="35" placeholder="CoolEmail@gmail.com" required>
 
-            <p></p>
+                <p></p>
 
-            <label for="inquiry">Type of Inquiry</label>
-            <br>
-            <!--List of options regarding the Type of Inquiry-->
-            <input list="list" name="inquiry" required>
-                <datalist id="list">
-                    <option value="Job Offer"></option>
-                    <option value="Interview Request"></option>
-                    <option value="General Inquiry"></option>
-                    <option value="Other"></option>
-                </datalist>
+                <label for="inquiry">Type of Inquiry</label>
+                <br>
+                <!--List of options regarding the Type of Inquiry-->
+                <input list="list" name="inquiry" required size="35">
+                    <datalist id="list">
+                        <option value="Job Offer"></option>
+                        <option value="Interview Request"></option>
+                        <option value="General Inquiry"></option>
+                        <option value="Other"></option>
+                    </datalist>
 
-            <p></p>
-            <!--For the user to write what the inquiry is about in a text area-->
-            <label for="additional_info">About the Inquiry</label>
-            <br>
-            <textarea name="additional_info" cols="45" rows="7" required></textarea>
+                <p></p>
+                <!--For the user to write what the inquiry is about in a text area-->
+                <label for="additional_info">About the Inquiry</label>
+                <br>
+                <textarea name="additional_info" cols="33" rows="7" required></textarea>
 
-            <p></p>
-            <!--To submit the info and supposedly send it to me-->
-            <input type="submit" value="Send"/>
+                <p></p>
+                <!--To submit the info and supposedly send it to me-->
+                <input type="submit" value="Send"/>
 
-        </form>
-
+            </form>
+        </div>
     </body>
 
     <footer>
