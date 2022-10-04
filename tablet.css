@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/*very similar to fullscreen css style page but with
+fluid design to adjust to different screen sides
+
+everything has been adjusted accordingly*/
+
 body{
     font-family: 'Times New Roman', Times, serif;
     background-color: navy;

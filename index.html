@@ -18,13 +18,16 @@ Jaime Gonzalez Sanz 100839804-->
         <!-- phone screens -->
         <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
     </head>
-
+    <!--Everything inside body the user can actually see-->
+    <body>
+    <!--header of the page (all pages actually), with our navigation feautres-->
     <header>
         <div>
             <nav>
-            <!--check if i can still use nav later-->
             <ul class="header_list">
-                <!--using the a tag for hyperlinks for my navigation-->
+                <!--using the a tag for hyperlinks for my navigation
+                added to a list for easier customization in css -->
+                <!--also created a class for easier customization-->
                 <li><a class="header_element" href="index.html">Home</a></li>
                 <li><a class="header_element" href="aboutme.html">About Me</a></li>
                 <li><a class="header_element" href="projects.html">Projects</a></li>
@@ -33,11 +36,9 @@ Jaime Gonzalez Sanz 100839804-->
             </nav>
         </div>
     </header>
-
-    <!--Everything inside here the user can actually see-->
-    
+        <!--wrapper with everything inside being the main part of the page-->
         <div id="wrapper">
-
+            <!-- division of lest side for a quick intro to the page-->
             <div id="left_side">
             <h3>Jaime Gonzalez Sanz</h3>
             
@@ -53,19 +54,22 @@ Jaime Gonzalez Sanz 100839804-->
                 </p>
             
             </div>
-
+            <!--division of the right side for my beautiful face :)-->
             <div id="right_side">
             <figure>
                 <img id="photo1" src="me1.jpg" width="125" height="150" alt="myphoto">
             </figure>
             </div>
         </div>
-
+    <!--footer for links to all my socials-->
     <footer>
+        <!--the structure is very similar to that of the header, with classes-->
         <div class="footer_div">
         <!--Used to include a list of social links-->
         <nav>
             <ul class="footer_list">
+                <!--list items are images instead of text this time around-->
+                <!--images are the icons of the socials-->
                 <li><a class="footer_element" href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">
                     <img alt="linkedin" width="45" height="45" src="IN.png"></a></li>
                 <li><a class="footer_element" href="https://twitter.com/Dalus_exe">
@@ -85,3 +89,4 @@ Jaime Gonzalez Sanz 100839804-->
     </body>
 
 </html>
+<!--closing everything in the site-->

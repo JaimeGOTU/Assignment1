@@ -1,5 +1,9 @@
+/*PC stylesheet*/
+
 @charset "UTF-8";
 
+/*General things, font, background color, height adjusted so gradient doesnt reset
+(at least on the screens ive tried it on, if you have a vertical screen... well...*/
 body{
     font-family: 'Times New Roman', Times, serif;
     background-image: linear-gradient(to bottom, purple, blue);
@@ -7,6 +11,7 @@ body{
     height: 800px;
 }
 
+/*Wrapper settings so it's clearly different from background*/
 #wrapper{
     width: 961px;
     height: 380px;
@@ -15,11 +20,14 @@ body{
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    /*display flex so things automatically algin*/
     display: flex;
+    /*and this so they're centered to the screen*/
     align-items: center;
 
 }
 
+/*wrapper specifically for the "about me" html, helpful for adjusting small things*/
 #wrapper_about_me{
     width: 961px;
     height: 520px;
@@ -27,7 +35,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
+/*same as above but for the "project" html*/
 #wrapper_project{
     width: 961px;
     height: 540px;
@@ -36,6 +44,7 @@ body{
     margin-right: auto;
 }
 
+/*Left and Right Sides get used in index.html*/
 #right_side{
     float:right;
     width: 25%;
@@ -49,17 +58,20 @@ body{
     width: 60%;
     margin-top: 30px;
     margin-left: 30px;
+    /*added a border to the main message of the page*/
     border-width: 5px;
     border-style: inset;
     border-color: black;
+    /*used transforms learned yesterday to align it better*/
     transform: translateY(-20px);
 }
 
+/*changing the articles in "about me" and "project"*/
 article{
     background-color: beige;
     height: 290px;
 }
-
+/*changing the video in about me and project*/
 video{
     width: 320px;
     height: 180px;
@@ -71,16 +83,16 @@ video{
     margin-top: 15px;
     margin-left: 35px;
 }
-
+/*for the contact me page*/
 #form{
     margin-left: 35%;
     margin-right: auto;
 }
-
+/*so headers dont glue to the left side of the screen*/
 h1,h2,h3,h4,h5,h6,p,li {
     margin-left:15px;
     }
-
+/*header of the screen in all pages*/
 header{
     background-color: greenyellow;
     margin: 0%;
@@ -90,8 +102,9 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-
+/*made a class for my header / nav elements to further adjust things*/
 .header_list{
+    /*this removes dots and stuff from the list elements, because i just want the text*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -99,7 +112,7 @@ header{
     overflow: hidden;
     background-color: greenyellow;
 }
-
+/*to change the text of the navigation elemnts*/
 .header_element{
     display: block;
     color: navy;
@@ -108,16 +121,20 @@ header{
     /*removes stuff like underline*/
     text-decoration: none;
 }
-
+/*hover effect for navigation bar on header*/
 .header_element:hover{
     background-color: navy;
     color: greenyellow;
 }
-
+/*used so list statys on left side and goes from left to right
+instead of top to bottom*/
 li{
     float: left;
 }
 
+/*footer and its elements / classes work in a very similar way 
+to that of the header elements. Done this way everything is 
+easier to adjust*/
 footer{
     background-color: black;
     padding-top:5px;
@@ -143,7 +160,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
+/*to adjust my beautiful photo so it looks good on the main page*/
 #photo1{
     transform: scale(1.5)translateX(20px)translateY(-20px);
 }
