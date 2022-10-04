@@ -11,8 +11,13 @@ body{
     width: 961px;
     height: 380px;
     background-color: silver;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    align-items: center;
+
 }
 
 #wrapper_about_me{
@@ -25,7 +30,7 @@ body{
 
 #wrapper_project{
     width: 961px;
-    height: 500px;
+    height: 540px;
     background-color: silver;
     margin-left: auto;
     margin-right: auto;
@@ -33,6 +38,9 @@ body{
 
 #right_side{
     float:right;
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 #left_side{
@@ -41,11 +49,15 @@ body{
     width: 60%;
     margin-top: 30px;
     margin-left: 30px;
+    border-width: 5px;
+    border-style: inset;
+    border-color: black;
+    transform: translateY(-20px);
 }
 
 article{
     background-color: beige;
-    height: 250px;
+    height: 290px;
 }
 
 video{
@@ -93,7 +105,7 @@ header{
     color: navy;
     text-align: center;
     padding: 14;
-    /*what was this?*/
+    /*removes stuff like underline*/
     text-decoration: none;
 }
 
@@ -130,4 +142,8 @@ footer{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+#photo1{
+    transform: scale(1.5)translateX(20px)translateY(-20px);
 }
