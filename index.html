@@ -20,28 +20,26 @@ Jaime Gonzalez Sanz 100839804-->
     </head>
 
     <header>
-        <!--Used to include all my navigation links-->
-        <nav>
-            <h5>
-                <ul>
+    
+        <div>
+            <!--check if i can still use nav later-->
+            <ul class="header_list">
                 <!--using the a tag for hyperlinks for my navigation-->
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contactme.html">Contact Me</a></li>
-                </ul>
-            </h5>
-        </nav>
+                <li><a class="header_element" href="index.html">Home</a></li>
+                <li><a class="header_element" href="aboutme.html">About Me</a></li>
+                <li><a class="header_element" href="projects.html">Projects</a></li>
+                <li><a class="header_element" href="contactme.html">Contact Me</a></li>
+            </ul>
+        </div>
     </header>
 
     <!--Everything inside here the user can actually see-->
     <body>
         <div id="wrapper">
-        <!--<article>-->
-            <!---->
+
             <div id="left_side">
             <h3>Jaime G.</h3>
-            <h5>
+            
                 <p>
                     Welcome to my site. 
                     My name is Jaime, a cybersecurity student in Ontario, Canada.
@@ -50,7 +48,7 @@ Jaime Gonzalez Sanz 100839804-->
                     Youll see I go by "Dalus_exe" on the internet. 
                     Shortform for Daedalus.exe. 
                 </p>
-            </h5>
+            
             </div>
 
             <div id="right_side">
@@ -62,21 +60,25 @@ Jaime Gonzalez Sanz 100839804-->
     </body>
 
     <footer>
-        <h3>Socials</h3>
+        <div class="footer_div"></div>
         <!--Used to include a list of social links-->
-        <nav>
-            <!--LATER, INCLUDE LOGOS???-->
-            <h5>
-                <a href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">LinkedIn</a>
-                <a href="https://twitter.com/Dalus_exe">Twitter</a>
-                <a href="https://www.twitch.tv/dalus_exe">Twitch</a>
-                <a href="https://www.youtube.com/channel/UCLUutHKgWV748k3QDboIOmA">Youtube</a>
-            </h5>
-        </nav>
-        <address>
-            <p>
-                You can also contact me at: <a href="mailto:jaime.gonzalezsanz@ontariotechu.net">jaime.gonzalezsanz@ontariotechu.net</a>
-            </p>
-        </address>
+        <!--<nav>-->
+            <ul class="footer_list">
+                <li><a class="footer_element" href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">
+                    <img alt="linkedin" width="45" height="45" src="IN.png"></a></li>
+                <li><a class="footer_element" href="https://twitter.com/Dalus_exe">
+                    <img alt="twitter" width="45" height="45" src="Twitter.png"></a></li>
+                <li><a class="footer_element" href="https://www.twitch.tv/dalus_exe">
+                    <img alt="twitch" width="45" height="45" src="twitch.png"></a></li>
+                <li><a class="footer_element" href="https://www.youtube.com/channel/UCLUutHKgWV748k3QDboIOmA">
+                    <img alt="email" width="45" height="45" src="Youtube.png"></a></li>
+                <li><a class="footer_element" href="mailto:jaime.gonzalezsanz@ontariotechu.net">
+                    <img alt="email" width="45" height="45" src="correo.png" ></a></li>
+            </ul>
+        <!--</nav>-->
+
+        </div>
+
     </footer>
+
 </html>

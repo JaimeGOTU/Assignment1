@@ -2,27 +2,21 @@
 
 body{
     font-family: 'Times New Roman', Times, serif;
-    /*
-    background: -moz-linear-gradient(top, #8552F7 0%, #464ED4 100%);
-    background: -webkit-linear-gradient(top,#8552F7 0%, #464ED4 100%);
-    background: -o-linear-gradient(top, #8552F7 0%, #464ED4 100%);
-    background: linear-gradient(top, bottom, #8552F7 0%, #464ED4 100%);
-    */
     background-image: linear-gradient(to bottom, purple, blue);
     padding: 10px;
-    height: 690px;
+    height: 750px;
 }
 
 #wrapper{
-    width: 720px;
-    height: 400px;
+    width: 961px;
+    height: 380px;
     background-color: silver;
     margin-left: auto;
     margin-right: auto;
 }
 
 #wrapper_about_me{
-    width: 720px;
+    width: 961px;
     height: 500px;
     background-color: silver;
     margin-left: auto;
@@ -35,17 +29,16 @@ body{
 
 #left_side{
     float:left;
+    background-color: beige;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 30px;
 }
-/*
-video{
-    width: 320px;
-    height: 180px;
-    padding: 15px;
-    margin-left: 34%;
-    background-color:black;
-    border:2px white solid;
-    /*margin-left: auto;
-    margin-right: auto;*/
+
+article{
+    background-color: beige;
+    height: 250px;
+}
 
 video{
     width: 320px;
@@ -64,25 +57,69 @@ video{
     margin-right: auto;
 }
 
+h1,h2,h3,h4,h5,h6,p,li {
+    margin-left:15px;
+    }
+
 header{
     background-color: greenyellow;
     margin: 0%;
     padding-top:5px;
     padding-bottom:5px;
-    width: 720px;
+    width: 961px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*to hide if it doesn't fit*/
+    overflow: hidden;
+    background-color: greenyellow;
+}
+
+.header_element{
+    display: block;
+    color: navy;
+    text-align: center;
+    padding: 14;
+    /*what was this?*/
+    text-decoration: none;
+}
+
+.header_element:hover{
+    background-color: navy;
+    color: greenyellow;
+}
+
+li{
+    float: left;
 }
 
 footer{
-    background-color: greenyellow;
+    background-color: black;
     padding-top:5px;
     padding-bottom:5px;
-    width: 720px;
+    width: 961px;
+    height: 80 px;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1,h2,h3,h4,h5,h6,p,li {
-    margin-left:15px;
-    }
+.footer_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+
+.footer_div{
+    height: 50 px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
