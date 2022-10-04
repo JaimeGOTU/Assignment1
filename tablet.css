@@ -39,14 +39,18 @@ body{
     float:none;
     background-color: beige;
     width: 90%;
-    height: 50%;
+    height: 65%;
     margin-top: 30px;
     margin-left: 30px;
+    border-width: 5px;
+    border-style: inset;
+    border-color: black;
 }
 
 article{
     background-color: beige;
     height: 63%;
+    padding-right: 5px;
 }
 
 video{
@@ -131,4 +135,9 @@ footer{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+#photo1{
+    transform: scale(1.3)translateY(50px);
+    /*translateX(20px)translateY(-20px);*/
 }
