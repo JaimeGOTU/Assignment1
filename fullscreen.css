@@ -17,6 +17,14 @@ body{
 
 #wrapper_about_me{
     width: 961px;
+    height: 520px;
+    background-color: silver;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wrapper_project{
+    width: 961px;
     height: 500px;
     background-color: silver;
     margin-left: auto;
@@ -53,7 +61,7 @@ video{
 }
 
 #form{
-    margin-left: 30%;
+    margin-left: 35%;
     margin-right: auto;
 }
 

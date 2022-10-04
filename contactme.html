@@ -14,14 +14,18 @@ Jaime Gonzalez Sanz 100839804-->
 
     <!--Same header for all pages so user has easy navigation-->
     <header>
-        <nav>
-            <h5>
-                <a href="index.html">Home</a>
-                <a href="aboutme.html">About Me</a>
-                <a href="projects.html">Projects</a>
-                <a href="contactme.html">Contact Me</a>
-            </h5>
-        </nav>
+        <div>
+            <nav>
+            <!--check if i can still use nav later-->
+            <ul class="header_list">
+                <!--using the a tag for hyperlinks for my navigation-->
+                <li><a class="header_element" href="index.html">Home</a></li>
+                <li><a class="header_element" href="aboutme.html">About Me</a></li>
+                <li><a class="header_element" href="projects.html">Projects</a></li>
+                <li><a class="header_element" href="contactme.html">Contact Me</a></li>
+            </ul>
+            </nav>
+        </div>
     </header>
     <!--The form will be inside the body-->
     <body>
@@ -71,22 +75,25 @@ Jaime Gonzalez Sanz 100839804-->
     </body>
 
     <footer>
-        <h3>Socials</h3>
+        <div class="footer_div">
         <!--Used to include a list of social links-->
         <nav>
-            <!--LATER, INCLUDE LOGOS???-->
-            <h5>
-                <a href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">LinkedIn</a>
-                <a href="https://twitter.com/Dalus_exe">Twitter</a>
-                <a href="https://www.twitch.tv/dalus_exe">Twitch</a>
-                <a href="https://www.youtube.com/channel/UCLUutHKgWV748k3QDboIOmA">Youtube</a>
-            </h5>
+            <ul class="footer_list">
+                <li><a class="footer_element" href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">
+                    <img alt="linkedin" width="45" height="45" src="IN.png"></a></li>
+                <li><a class="footer_element" href="https://twitter.com/Dalus_exe">
+                    <img alt="twitter" width="45" height="45" src="Twitter.png"></a></li>
+                <li><a class="footer_element" href="https://www.twitch.tv/dalus_exe">
+                    <img alt="twitch" width="45" height="45" src="twitch.png"></a></li>
+                <li><a class="footer_element" href="https://www.youtube.com/channel/UCLUutHKgWV748k3QDboIOmA">
+                    <img alt="email" width="45" height="45" src="Youtube.png"></a></li>
+                <li><a class="footer_element" href="mailto:jaime.gonzalezsanz@ontariotechu.net">
+                    <img alt="email" width="45" height="45" src="correo.png" ></a></li>
+            </ul>
         </nav>
-        <address>
-            <p>
-                You can also contact me at: <a href="mailto:jaime.gonzalezsanz@ontariotechu.net">jaime.gonzalezsanz@ontariotechu.net</a>
-            </p>
-        </address>
+
+        </div>
+
     </footer>
 
 </html>

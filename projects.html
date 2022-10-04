@@ -13,62 +13,61 @@ Jaime Gonzalez Sanz 100839804-->
     </head>
     <!--Same header for all pages so user has easy navigation-->
     <header>
-        <nav>
-            <h5>
-                <a href="index.html">Home</a>
-                <a href="aboutme.html">About Me</a>
-                <a href="projects.html">Projects</a>
-                <a href="contactme.html">Contact Me</a>
-            </h5>
-        </nav>
+        <div>
+            <nav>
+            <!--check if i can still use nav later-->
+            <ul class="header_list">
+                <!--using the a tag for hyperlinks for my navigation-->
+                <li><a class="header_element" href="index.html">Home</a></li>
+                <li><a class="header_element" href="aboutme.html">About Me</a></li>
+                <li><a class="header_element" href="projects.html">Projects</a></li>
+                <li><a class="header_element" href="contactme.html">Contact Me</a></li>
+            </ul>
+            </nav>
+        </div>
     </header>
 
     <!--link to a quick video quick a summary of the things i've worked on-->
     <body>
-        <div id="wrapper">
+        <div id="wrapper_project">
             <div></div>
             <video id="projects" controls preload="auto" poster="thumbnail.jpg" name="projects_vid">
                 <source src="projects.mp4" type="video/mp4">
                 <source src="projects.ogv" type="video/ogg">
             </video>
-    
-
-    <!--unordered list of projects i've worked on-->
-        <!--
-            <ul>
-                <h3>Examples of Projects I've coded in the past year: </h3>
-                    <li>Calculator</li>
-                    <li>Hangman</li>
-                    <li>Database Project</li>
-                    <li>Rock Paper Scissors</li>
-            </ul>
-        -->
-
-        <p>
-            
-        </p>
-        
-
+            <article>
+                <h2>Projects: </h2>
+                    <p>Over the past year I've worked in many python related assignments.</p>                    
+                    <p>In the video above you can see some of them, such as a quiz generator
+                        and Object Oriented Programming.
+                    </p>
+                    <p>Of course this site itself is my latest "project".</p>
+                    <p>My other personal project you can see on my youtube.</p>
+                    <p>It consinsts of learning Japanese in a year by studying everyday.</p>
+            </article>
         </div>
     </body>
 
     <footer>
-        <h3>Socials</h3>
+        <div class="footer_div">
         <!--Used to include a list of social links-->
         <nav>
-            <!--LATER, INCLUDE LOGOS???-->
-            <h5>
-                <a href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">LinkedIn</a>
-                <a href="https://twitter.com/Dalus_exe">Twitter</a>
-                <a href="https://www.twitch.tv/dalus_exe">Twitch</a>
-                <a href="https://www.youtube.com/channel/UCLUutHKgWV748k3QDboIOmA">Youtube</a>
-            </h5>
+            <ul class="footer_list">
+                <li><a class="footer_element" href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">
+                    <img alt="linkedin" width="45" height="45" src="IN.png"></a></li>
+                <li><a class="footer_element" href="https://twitter.com/Dalus_exe">
+                    <img alt="twitter" width="45" height="45" src="Twitter.png"></a></li>
+                <li><a class="footer_element" href="https://www.twitch.tv/dalus_exe">
+                    <img alt="twitch" width="45" height="45" src="twitch.png"></a></li>
+                <li><a class="footer_element" href="https://www.youtube.com/channel/UCLUutHKgWV748k3QDboIOmA">
+                    <img alt="email" width="45" height="45" src="Youtube.png"></a></li>
+                <li><a class="footer_element" href="mailto:jaime.gonzalezsanz@ontariotechu.net">
+                    <img alt="email" width="45" height="45" src="correo.png" ></a></li>
+            </ul>
         </nav>
-        <address>
-            <p>
-                You can also contact me at: <a href="mailto:jaime.gonzalezsanz@ontariotechu.net">jaime.gonzalezsanz@ontariotechu.net</a>
-            </p>
-        </address>
+
+        </div>
+
     </footer>
 
 </html>
