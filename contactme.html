@@ -1,0 +1,101 @@
+<!--INFR3120 - Web and Scripting Programming - Assignment 1
+Jaime Gonzalez Sanz 100839804-->
+
+<!--very similar strucutre to the rest of the pages but we use the form tag-->
+
+<!DOCTYPE HTML>
+<html>
+    <!--Head mostly the same for all files except title name-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Jaime.G Portfolio - Contact Me</title>
+        <link href="fullscreen.css" rel="stylesheet" type="text/css" media="only screen and (min-width:961px)">
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    </head>
+
+    <body>
+    <!--Same header for all pages so user has easy navigation-->
+    <header>
+        <div>
+            <nav>
+            <!--check if i can still use nav later-->
+            <ul class="header_list">
+                <!--using the a tag for hyperlinks for my navigation-->
+                <li><a class="header_element" href="index.html">Home</a></li>
+                <li><a class="header_element" href="aboutme.html">About Me</a></li>
+                <li><a class="header_element" href="projects.html">Projects</a></li>
+                <li><a class="header_element" href="contactme.html">Contact Me</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <!--The form will be inside-->
+    
+        <div id="wrapper">
+            <!--Necessary to make the "Contact Me" form or any other form-->
+            <form id="form">
+                <!--Labels to indicate the user what to input-->
+                <br>
+                <label for="name">Name</label>
+                <br>
+                <!--The input itself, with placeholders as examples-->
+                <input type="text" name="name" id="name" size="35" placeholder="John Smith" required>
+
+                <p></p>
+
+                <label for="email">E-mail</label>
+                <br>
+                <!--same as above, but with type email, so a valid input is necessary-->
+                <input type="email" name="email" id="email" size="35" placeholder="CoolEmail@gmail.com" required>
+
+                <p></p>
+
+                <label for="inquiry">Type of Inquiry</label>
+                <br>
+                <!--List of options regarding the Type of Inquiry-->
+                <input list="list" name="inquiry" id="inquiry" required size="35">
+                    <datalist id="list">
+                        <option value="Job Offer"></option>
+                        <option value="Interview Request"></option>
+                        <option value="General Inquiry"></option>
+                        <option value="Other"></option>
+                    </datalist>
+
+                <p></p>
+                <!--For the user to write what the inquiry is about in a text area-->
+                <label for="additional_info">About the Inquiry</label>
+                <br>
+                <textarea name="additional_info" id="additional_info" cols="35" rows="7" required></textarea>
+
+                <p></p>
+                <!--To submit the info and supposedly send it to me-->
+                <input type="submit" value="Send"/>
+
+            </form>
+        </div>
+    
+    <footer>
+        <div class="footer_div">
+        <!--Used to include a list of social links-->
+        <nav>
+            <ul class="footer_list">
+                <li><a class="footer_element" href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">
+                    <img alt="linkedin" width="45" height="45" src="IN.png"></a></li>
+                <li><a class="footer_element" href="https://twitter.com/Dalus_exe">
+                    <img alt="twitter" width="45" height="45" src="Twitter.png"></a></li>
+                <li><a class="footer_element" href="https://www.twitch.tv/dalus_exe">
+                    <img alt="twitch" width="45" height="45" src="twitch.png"></a></li>
+                <li><a class="footer_element" href="https://www.youtube.com/channel/UCLUutHKgWV748k3QDboIOmA">
+                    <img alt="email" width="45" height="45" src="Youtube.png"></a></li>
+                <li><a class="footer_element" href="mailto:jaime.gonzalezsanz@ontariotechu.net">
+                    <img alt="email" width="45" height="45" src="correo.png" ></a></li>
+            </ul>
+        </nav>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

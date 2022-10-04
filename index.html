@@ -1,0 +1,92 @@
+<!--INFR3120 - Web and Scripting Programming - Assignment 1
+Jaime Gonzalez Sanz 100839804-->
+
+<!--Necessary declaration when using HTML-->
+<!DOCTYPE HTML>
+<!--All of the code must be inside the <html> tag-->
+<html>
+    <!--Lots of important references that won't show on the page except the title-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Jaime.G Portfolio</title>
+        <!--link to our css files for customization, depending on screen size-->
+
+        <!-- full-size monitor screens-->
+        <link href="fullscreen.css" rel="stylesheet" type="text/css" media="only screen and (min-width:961px)">
+        <!-- tablet screens -->
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+        <!-- phone screens -->
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    </head>
+    <!--Everything inside body the user can actually see-->
+    <body>
+    <!--header of the page (all pages actually), with our navigation feautres-->
+    <header>
+        <div>
+            <nav>
+            <ul class="header_list">
+                <!--using the a tag for hyperlinks for my navigation
+                added to a list for easier customization in css -->
+                <!--also created a class for easier customization-->
+                <li><a class="header_element" href="index.html">Home</a></li>
+                <li><a class="header_element" href="aboutme.html">About Me</a></li>
+                <li><a class="header_element" href="projects.html">Projects</a></li>
+                <li><a class="header_element" href="contactme.html">Contact Me</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+        <!--wrapper with everything inside being the main part of the page-->
+        <div id="wrapper">
+            <!-- division of lest side for a quick intro to the page-->
+            <div id="left_side">
+            <h3>Jaime Gonzalez Sanz</h3>
+            
+                <p>
+                    Welcome to my site. 
+                <br>
+                <br>
+                    My name is Jaime, a cybersecurity student in Ontario, Canada.
+                </p>
+                <p>
+                    Youll see I go by "Dalus_exe" on the internet. 
+                    Shortform for Daedalus.exe. 
+                </p>
+            
+            </div>
+            <!--division of the right side for my beautiful face :)-->
+            <div id="right_side">
+            <figure>
+                <img id="photo1" src="me1.jpg" width="125" height="150" alt="myphoto">
+            </figure>
+            </div>
+        </div>
+    <!--footer for links to all my socials-->
+    <footer>
+        <!--the structure is very similar to that of the header, with classes-->
+        <div class="footer_div">
+        <!--Used to include a list of social links-->
+        <nav>
+            <ul class="footer_list">
+                <!--list items are images instead of text this time around-->
+                <!--images are the icons of the socials-->
+                <li><a class="footer_element" href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">
+                    <img alt="linkedin" width="45" height="45" src="IN.png"></a></li>
+                <li><a class="footer_element" href="https://twitter.com/Dalus_exe">
+                    <img alt="twitter" width="45" height="45" src="Twitter.png"></a></li>
+                <li><a class="footer_element" href="https://www.twitch.tv/dalus_exe">
+                    <img alt="twitch" width="45" height="45" src="twitch.png"></a></li>
+                <li><a class="footer_element" href="https://www.youtube.com/channel/UCLUutHKgWV748k3QDboIOmA">
+                    <img alt="email" width="45" height="45" src="Youtube.png"></a></li>
+                <li><a class="footer_element" href="mailto:jaime.gonzalezsanz@ontariotechu.net">
+                    <img alt="email" width="45" height="45" src="correo.png" ></a></li>
+            </ul>
+        </nav>
+
+        </div>
+    </footer>
+
+    </body>
+
+</html>
+<!--closing everything in the site-->

@@ -1,0 +1,93 @@
+<!--INFR3120 - Web and Scripting Programming - Assignment 1
+Jaime Gonzalez Sanz 100839804-->
+
+<!--mostly the same as index, however main body is different-->
+
+<!DOCTYPE HTML>
+<html>
+    <!--Head mostly the same for all files except title name-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Jaime.G Portfolio - About Me</title>
+        <link href="fullscreen.css" rel="stylesheet" type="text/css" media="only screen and (min-width:961px)">
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    </head>
+
+    <body>
+    <!--Same header for all pages so user has easy navigation-->
+    <header>
+        <div>
+            <nav>
+            <!--check if i can still use nav later-->
+            <ul class="header_list">
+                <!--using the a tag for hyperlinks for my navigation-->
+                <li><a class="header_element" href="index.html">Home</a></li>
+                <li><a class="header_element" href="aboutme.html">About Me</a></li>
+                <li><a class="header_element" href="projects.html">Projects</a></li>
+                <li><a class="header_element" href="contactme.html">Contact Me</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+        <!--specific page wrapper for easier customization-->
+        <!--only 1 division, 1 column, video on top, article later-->
+        <div id="wrapper_about_me">
+        <!--We put everything inside the -->
+            <br>
+            <!--including my video with its 2 sources-->
+            <video controls preload="auto" poster="thumbnail.jpg">
+                <source src="introduction.mp4" type="video/mp4">
+                <source src="introduction.ogv" type="video/ogg">
+            </video>
+
+            <!--article tag to write the introduction in-->
+            <article>
+            <h2>Who is Jaime?</h2>
+            
+                <p>I, Jaime Gonzalez Sanz am a 23yo networking and it security student 
+                at Ontario tech. university since 2021. </p>
+
+                <p> Born and raised in Granada, 
+                Spain until the age of 14 in 2013 when I moved to Viña del Mar, Chile.</p>
+
+                <p>So far I've got knowledge in python, html 5, css3 and JavaScript.</p>
+
+                <p>I'm a native Spanish speaker that also knows south American Spanish differences and nuances. </p>
+
+
+                <p>I'm fluent in English and self-taught Japanese speaker (conversational)</p>
+
+                <p>
+                    My interests lie in gaming, Japanese culture (such as anime and music) 
+                    and learning many things.
+                </p>
+            
+            </article>
+        </div>
+    
+
+    <footer>
+        <div class="footer_div">
+        <!--Used to include a list of social links-->
+        <nav>
+            <ul class="footer_list">
+                <li><a class="footer_element" href="https://www.linkedin.com/in/jaime-gonzalez-2a2544240/">
+                    <img alt="linkedin" width="45" height="45" src="IN.png"></a></li>
+                <li><a class="footer_element" href="https://twitter.com/Dalus_exe">
+                    <img alt="twitter" width="45" height="45" src="Twitter.png"></a></li>
+                <li><a class="footer_element" href="https://www.twitch.tv/dalus_exe">
+                    <img alt="twitch" width="45" height="45" src="twitch.png"></a></li>
+                <li><a class="footer_element" href="https://www.youtube.com/channel/UCLUutHKgWV748k3QDboIOmA">
+                    <img alt="email" width="45" height="45" src="Youtube.png"></a></li>
+                <li><a class="footer_element" href="mailto:jaime.gonzalezsanz@ontariotechu.net">
+                    <img alt="email" width="45" height="45" src="correo.png" ></a></li>
+            </ul>
+        </nav>
+
+        </div>
+
+    </footer>
+    </body>
+</html>

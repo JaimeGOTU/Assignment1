@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+/*very similar to fullscreen css style page but with
+fluid design to adjust to different screen sides
+
+everything has been adjusted accordingly*/
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    /*background-image: linear-gradient(to bottom, purple, blue);*/
+    background-color: black;
+    padding: 10px;
+    height: 750px;
+}
+
+#wrapper{
+    width: 95%;
+    height: 75%;
+    background-color: silver;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper_about_me{
+    width: 95%;
+    height: 95%;
+    background-color: silver;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#wrapper_project{
+    width: 95%;
+    height: 95%;
+    background-color: silver;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#right_side{
+    float:none;
+}
+
+#left_side{
+    float:none;
+    background-color: beige;
+    width: 90%;
+    height: 45%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 3px;
+    padding-right: 5px;
+    border-style: inset;
+    border-color: black;
+}
+
+article{
+    background-color: beige;
+    height: 65%;
+    padding-right: 9px;
+}
+
+video{
+    width: 85%;
+    height: 25%;
+    padding: 15px;
+    background-color:black;
+    border:2px white solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-left: 2.5%;
+}
+
+#form{
+    margin-left: 3%;
+    margin-right: auto;
+}
+
+h1,h2,h3,h4,h5,h6,p,li {
+    margin-left:15px;
+    }
+
+header{
+    background-color: white;
+    margin: 0%;
+    padding-top:5px;
+    padding-bottom:5px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*to hide if it doesn't fit*/
+    overflow: hidden;
+    background-color: white;
+    font-size: smaller;
+}
+
+.header_element{
+    display: block;
+    color: navy;
+    text-align: center;
+    /*padding: 14;*/
+    /*what was this?*/
+    text-decoration: none;
+}
+
+.header_element:hover{
+    background-color: navy;
+    color: white;
+}
+
+li{
+    float: left;
+}
+
+footer{
+    background-color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+    width: 95%;
+    /*height: 80;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    transform: scale(0.85);
+}
+
+.footer_div{
+    /*height: 50 px;*/
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo1{
+    transform: scale(1.6)translateY(30px)translateX(30px);
+    /*translateX(20px)translateY(-20px);*/
+    float:none;
+}
