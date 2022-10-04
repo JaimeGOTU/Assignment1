@@ -3,13 +3,13 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     /*background-image: linear-gradient(to bottom, purple, blue);*/
-    background-color: red;
+    background-color: black;
     padding: 10px;
     height: 750px;
 }
 
 #wrapper{
-    width: 90%;
+    width: 95%;
     height: 75%;
     background-color: silver;
     margin: auto;
@@ -18,7 +18,7 @@ body{
 }
 
 #wrapper_about_me{
-    width: 90%;
+    width: 95%;
     height: 95%;
     background-color: silver;
     margin-left: auto;
@@ -27,7 +27,7 @@ body{
 }
 
 #wrapper_project{
-    width: 90%;
+    width: 95%;
     height: 95%;
     background-color: silver;
     margin-left: auto;
@@ -43,9 +43,11 @@ body{
     background-color: beige;
     width: 90%;
     height: 45%;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 10px;
-    border-width: 5px;
+    margin-right: 10px;
+    border-width: 3px;
+    padding-right: 5px;
     border-style: inset;
     border-color: black;
 }
@@ -53,7 +55,7 @@ body{
 article{
     background-color: beige;
     height: 65%;
-    padding-right: 5px;
+    padding-right: 9px;
 }
 
 video{
@@ -69,7 +71,7 @@ video{
 }
 
 #form{
-    margin-left: 10%;
+    margin-left: 3%;
     margin-right: auto;
 }
 
@@ -78,11 +80,11 @@ h1,h2,h3,h4,h5,h6,p,li {
     }
 
 header{
-    background-color: greenyellow;
+    background-color: white;
     margin: 0%;
     padding-top:5px;
     padding-bottom:5px;
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -93,7 +95,8 @@ header{
     padding: 0;
     /*to hide if it doesn't fit*/
     overflow: hidden;
-    background-color: greenyellow;
+    background-color: white;
+    font-size: smaller;
 }
 
 .header_element{
@@ -107,7 +110,7 @@ header{
 
 .header_element:hover{
     background-color: navy;
-    color: greenyellow;
+    color: white;
 }
 
 li{
@@ -115,10 +118,10 @@ li{
 }
 
 footer{
-    background-color: black;
+    background-color:white;
     padding-top:5px;
     padding-bottom:5px;
-    width: 90%;
+    width: 95%;
     height: 80;
     margin-left: auto;
     margin-right: auto;
@@ -129,19 +132,20 @@ footer{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:black;
+    background-color:white;
+    transform: scale(0.85);
 }
 
 .footer_div{
     height: 50 px;
-    background-color: black;
+    background-color: white;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
 #photo1{
-    transform: scale(1.6)translateY(30px)translateX(50px);
+    transform: scale(1.6)translateY(30px)translateX(30px);
     /*translateX(20px)translateY(-20px);*/
     float:none;
 }
